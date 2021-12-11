@@ -1,6 +1,6 @@
 $(".slick_slider").slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToShow: 2,
+  slidesToScroll: 2,
   autoplay: true,
   speed: 1500,
   autoplaySpeed: 2000,
