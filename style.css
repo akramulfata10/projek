@@ -16,6 +16,69 @@
 .col-md-6 {
   margin-top: -150px;
 }
+
+.slider {
+  background-color: #ddd;
+}
+
+.slider {
+  padding-bottom: 40pxs;
+}
+.team {
+  text-indent: 10px;
+  border: 0.5px solid #ddd;
+  background: #fff;
+}
+
+.team p {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 50px auto;
+}
+
+.left_arrow {
+  position: absolute;
+  top: 38%;
+  left: -16px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: #297bb7;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid rgba(226, 223, 77, 0.589);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.left_arrow:hover {
+  background: #246c4e;
+  border-color: #246c4e;
+}
+
+.right_arrow {
+  position: absolute;
+  top: 38%;
+  right: -16px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  background-color: #297bb7;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid rgba(226, 223, 77, 0.589);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.right_arrow:hover {
+  background: #246c4e;
+  border-color: #246c4e;
+}
 /* .jumbotron .display-4 {
   color: white;
   text-align: center;
@@ -60,7 +123,7 @@
 }
 
 .Product {
-  background-color: #ddd;
+  background-color: rgb(163, 163, 163);
 }
 
 /* .img {
